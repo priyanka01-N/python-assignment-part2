@@ -1,0 +1,60 @@
+#  Restaurant Menu & Order Management System (Python Assignment Part 2)
+
+##  Description
+This project is a command-line based Restaurant Order Management System built using Python data structures such as dictionaries, lists, and nested data.  
+It simulates menu handling, cart operations, inventory tracking, and sales analysis.
+
+---
+
+##  Features
+
+###  Task 1: Menu Exploration
+- Displayed menu grouped by category (Starters, Mains, Desserts)
+- Counted total items and available items
+- Identified most expensive item
+- Listed items priced under ₹150
+
+---
+
+###  Task 2: Cart Operations
+- Added items to cart with quantity
+- Checked availability before adding
+- Updated quantity for duplicate items
+- Removed items from cart
+- Calculated subtotal, GST (5%), and total bill
+
+---
+
+###  Task 3: Inventory Tracker (Deep Copy)
+- Created a deep copy of inventory using copy.deepcopy()
+- Deducted stock after order placement
+- Displayed reorder alerts for low stock items
+- Verified backup inventory remains unchanged
+
+---
+
+###  Task 4: Sales Log Analysis
+- Calculated total revenue per day
+- Identified best-selling day
+- Found most ordered items
+- Added new sales data and updated results
+- Printed numbered list of all orders
+
+---
+
+## Technologies Used
+- Python 3
+- Data Structures (List, Dictionary)
+- copy module (Deep Copy)
+
+---
+
+## ▶ How to Run
+
+1. Open terminal in project folder  
+2. Run the command:
+part2_order_system.py 
+3. view output in terminal
+
+## author
+Priyanka R. Nishad 
